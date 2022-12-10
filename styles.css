@@ -1,0 +1,158 @@
+.all{transition: 0.3s}
+
+header{
+    background-color: deepskyblue;
+    font-size: 20px;
+    font-family: Georgia;
+    color: white;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+header p{
+    width: 10%;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    white-space: pre;
+}
+
+
+  
+ul {
+    float: left;
+}
+  
+ul a {
+    display: block;
+    text-decoration-line: none;
+    text-align: center;
+    padding: 16px;
+    color: white;
+}
+  
+ul a:hover {
+    background-color: #111111;
+}
+
+body{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color:rgb(220, 220, 220);
+    position: relative;
+    left: 20%;
+    width: 60%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+}
+
+p.article {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    overflow-wrap: break-word;
+    font-size: large;
+}
+.article-link {
+    color: black;
+    text-decoration: none;
+}
+
+aside.left{
+    position: fixed;
+    left: 0;
+    top: 30%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+aside.right{
+    position: fixed;
+    right: 0;
+    top: 30%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+img{
+    width: 35%;
+    height: 55%;
+    border: #ddd;
+    border-width: 2mm;
+    border-radius: 1cm;
+    border-style: solid;
+}
+
+img.link{
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+p.head {
+    display: block;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: xx-large;
+}
+
+article.about{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color:rgb(220, 220, 220);
+    position: relative;
+    left: 30%;
+    width: 40%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+}
+
+p.links{
+    display: flex;
+    justify-content: space-around;
+    width: 8%;
+    color: white;
+}
+
+footer {
+    background-color: deepskyblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer > p{
+    font-size: medium;
+    text-align: center;
+    background-color: deepskyblue;
+    font-family: Georgia;
+    color: white;
+
+}
